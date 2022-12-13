@@ -1,0 +1,283 @@
+/* contactus and footer */
+
+*{
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+.nav{
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: 20%;
+    gap: 2rem;
+}
+input{
+    width:80%;
+    height: 40px;
+    margin: 30px;
+    border-style: inset;
+}
+.contact-us{
+    text-align: center;
+}
+footer{
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    padding: 40px;
+    width: 100%;
+    background-color: darkslategray;
+    display: flex;
+}
+.footer2 {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    padding: 40px;
+    width: 100%;
+    background-color: darkslategray;
+    display: flex;
+}
+.footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin: auto;
+}
+.footerimg{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+/* donation */
+
+.per{
+    position: relative;
+    left: 100px;
+    top: 70px;
+}
+.input{
+    width:40%;
+    height: 40px;
+    margin: 30px;
+    position: relative;
+    left: 300px;
+    bottom: 20px;
+}
+th{
+    text-align: left;
+}
+tr:hover{
+    background-color: gray;
+}
+table{
+    width: 70%;
+    height: 30%;
+    border-spacing: 40px;
+    margin: auto;
+}
+th , td{
+    border-bottom: 1px solid #ddd;
+}
+@media screen and (max-width:400px) {
+    table{
+        width:100px;
+    }
+    input{
+        position: relative;
+        left:80px;
+        top:25px;
+    }
+}
+/* feedthestudent */
+.h3{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+}
+.imgftn{
+    position: absolute;
+    right: 50%;
+    nav-down: current;  
+    width: 40%;
+}
+@media screen and (max-width:400px) {
+    h3{
+        position: absolute;
+        top:80%;
+        left: 30%;
+        width:50%;
+    }
+}
+
+/* fundraising */
+.h33{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+}
+.fundraising{
+    position: absolute;
+    right: 50%;
+    nav-down: current;  
+    width: 40%;
+}
+@media screen and (max-width:400px) {
+    .h3{
+        position: absolute;
+        top:80%;
+        left: 30%;
+        width:50%;
+    }
+}
+
+/* helpcenter */
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    text-decoration: solid;
+    text-align: center;
+    margin: 20px;
+}
+#search{
+    width:50%;
+    height: 40px;
+    margin: 30px;
+    text-align: center;
+    position: relative;
+    left: 300px;
+}
+.background{
+    background-color:rgb(245, 235, 235);
+    width: 80%;
+    margin: auto ;
+    padding: 70px;
+    display: flex;
+}
+.box-1{
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+  
+}
+.box-2{
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.box-3{
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.png{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.help{
+    position: relative;
+    left: 30px;
+}
+@media screen and (max-width: 400px){
+    .background{
+        flex-direction: column;
+        width: 100%;
+    }
+    .box{
+        padding: 30px;
+    }
+    #search{
+        position: relative;
+        left: 80px;
+    }
+
+/* job opportunity */
+}
+.platform{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+}
+.job{
+    position: absolute;
+    right: 50%;
+    nav-down: current;  
+    width: 40%;
+}
+@media screen and (max-width:400px) {
+    h3{
+        position: absolute;
+        top:80%;
+        left: 30%;
+        width:50%;
+    }
+}
+
+
+
+/* search */
+.textbackground{
+    background-color: aquamarine;
+    width: 70%;
+    padding: 5px;
+    position: relative;
+    top: 30px;
+    margin: auto;
+}
+.search{
+    width:20%;
+    height: 40px;
+    margin: 30px;
+    position: relative;
+    left: 200px;
+}
+@media screen and (max-width:400px) {
+    .background{
+        width: 100%;
+    }
+    .search{
+        position: relative;
+        left:80px;
+        top:25px;
+        width: 50%;
+    }
+}
+
+
+/* sponsor */
+.sponsortext{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+}
+.sponsor{
+    position: absolute;
+    right: 50%;
+    nav-down: current;  
+    width: 40%;
+}
+@media screen and (max-width:400px) {
+    .sponsortext{
+        position: absolute;
+        top:80%;
+        left: 30%;
+        width:50%;
+    }
+}
